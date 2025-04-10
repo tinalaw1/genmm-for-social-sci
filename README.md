@@ -32,7 +32,9 @@ For our empirical application, we used gpt-4o-2025-05-2013, the latest version o
 
 We randomly selected a subset of sites to serve as our test set (*n* = 49 sites). All images from the test set sites were labeled by a team of trained human coders using Dedoose software. In addition to "research assistant labels," we also obtained a set of "expert labels" based on labeling by one of the authors and a human coder (who was not assigned to other labeling tasks). We assessed whether our labels reliably measure well-defined built environment features by measuring between-research assistant agreement, and we assessed the validity of our model-generated labels by measuring accuracy, recall, precision, and F1 score. Our metrics for model labeling consistency, reliability, and validity are provided in Tables 5, 7, and 8, respectively, in the original paper. The proportion of sites with predicted and expert labels are also provided in Tables 6 and 8, respectively, in the original paper.
 
-We provide sample code for using OpenAI's GPT-4o model to label images. Researchers can measure between-research assistant agreement by calculating pairwise agreement, or the percent of labels that match in presence (or absence) for each pair of human coders. Between-research assistant agreement can also be measured using Cohen's $\kappa$:
+We provide sample code for using OpenAI's GPT-4o model to label images. We use the [OpenAI Python API library](https://github.com/openai/openai-python) to access the OpenAI API. See OpenAI's [Developer Platform](https://platform.openai.com/docs/overview) for additional guidance on [configuring your development environment](https://platform.openai.com/docs/libraries) and [analyzing images](https://platform.openai.com/docs/guides/images?api-mode=responses).
+
+Researchers can measure between-research assistant agreement by calculating pairwise agreement, or the percent of labels that match in presence (or absence) for each pair of human coders. Between-research assistant agreement can also be measured using Cohen's $\kappa$:
 
 $\kappa = \frac{P_0 - P_e}{1 - P_e}$
 
