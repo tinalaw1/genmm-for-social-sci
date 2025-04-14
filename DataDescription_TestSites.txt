@@ -1,0 +1,23 @@
+Description of the test site data
+
+DATA SET:  TestSites.csv
+SAVED BY:  Elizabeth Roberto
+DATE:      April 8, 2025
+
+
+Attribute descriptions:
+
+id -- unique test site ID, concatenation of the city name and a number between 1 and 10
+
+UsedInAnalysis -- indicator of whether the site was used in the published analysis (one site from Hartford was excluded from the final analysis, see article for details)
+
+longitudeF -- longitude coordinates (crs = EPSG:4326) for the 'From' node for a given site
+latitudeF -- latitude coordinates (crs = EPSG:4326) for the 'From' node for a given site
+
+longitudeT -- longitude coordinates (crs = EPSG:4326) for the 'To' node for a given site
+latitudeT -- latitude coordinates (crs = EPSG:4326) for the 'To' node for a given site
+
+
+NOTE: It is arbitrary and meaningless which node (i.e., endpoint) is designated as the 'From' node or the 'To' node.
+
+
