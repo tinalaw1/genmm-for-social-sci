@@ -10,6 +10,8 @@ Law, Tina and Elizabeth Roberto. Forthcoming. "Generative Multimodal Models for 
 
 Preprint: [https://osf.io/preprints/socarxiv/6jq32](https://osf.io/preprints/socarxiv/6jq32)
 
+Repository DOI: https://doi.org/10.7910/DVN/6QGZOA
+
 ## Framework with Example of Empirical Application
 
 ### Task 1: Curation
